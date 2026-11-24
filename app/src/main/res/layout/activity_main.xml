@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F2F2F2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zatrzymaj na 7!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/tvLicznik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:layout_marginBottom="30dp"/>
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/tvKomunikat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tvTrafienia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trafienia: 0"
+        android:textSize="22sp"
+        android:textColor="#222222"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
